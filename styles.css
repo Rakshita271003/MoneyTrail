@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #1A1A1A;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    max-width: 960px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #3CB371;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #3CB371;
+}
+
+/* Buttons */
+button {
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #3CB371;
+    color: #F5F5F5;
+    transition: transform 0.3s ease, box-shadow 0.4s;
+    box-shadow: 0 4px 10px rgba(60, 179, 113, 0.2);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(60, 179, 113, 0.3);
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    color: #1A1A1A;
+}
+
+/* Landing Page */
+#landing-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #3CB371;
+    border-radius: 0 0 50px 50px;
+    color: #FFFFFF;
+}
+
+#landing-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#landing-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#landing-section button {
+    margin: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    color: #1A1A1A;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, select:focus {
+    border-color: #3CB371;
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #EEE;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+
+table th {
+    background-color: #3CB371;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+table tr:hover {
+    background-color: #F0F0F0;
+}
+
+/* Hide sections */
+.hidden {
+    display: none;
+}
+
+/* Totals Section */
+.totals-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #1A1A1A;
+}
